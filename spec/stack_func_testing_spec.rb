@@ -52,7 +52,7 @@ describe Stack do
   describe '#pop' do
     context 'когда стек пуст' do
       it 'возвращается ничего' do
-        expect(stack.pop).to eq(nil)
+        expect(stack.pop).to be_nil
       end
 
       it 'размер стека не изменяется' do
@@ -88,7 +88,7 @@ describe Stack do
 
       it 'размер стека равняется 0' do
         stack.pop
-        elements.should have(0).items
+        expect(elements).to be_empty
       end
     end
   end
@@ -96,7 +96,7 @@ describe Stack do
   describe '#peek' do
     context 'когда стек пуст' do
       it 'возвращается ничего' do
-        expect(stack.peek).to eq(nil)
+        expect(stack.peek).to be_nil
       end
 
       it 'размер стека не изменяется' do
