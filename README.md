@@ -4,6 +4,6 @@
 
 ![CircleCI Status](https://circleci.com/gh/kamilhism/SoftwareTestingClasses.png?circle-token=924634500fb107d08c20a443f8aac8994a7bc0bf)
 
+[![Build Status](https://drone.io/github.com/kamilhism/SoftwareTestingClasses/status.png)](https://drone.io/github.com/kamilhism/SoftwareTestingClasses/latest)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kamilhism/softwaretestingclasses/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
